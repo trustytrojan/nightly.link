@@ -1,8 +1,8 @@
 name: Test workflow with upload
 on:
   workflow_dispatch:
-  push:
-    paths: ['.github/workflows/upload-test.yml']
+  # push:
+  #   paths: ['.github/workflows/upload-test.yml']
   pull_request:
     paths: ['.github/workflows/upload-test.yml']
 jobs:
